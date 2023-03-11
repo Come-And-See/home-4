@@ -10,6 +10,7 @@
   --color-soc-hover-footer: #31d0aa;
   --bkg-color: #2e2f42;
   --bkg-footer-soc: rgba(255, 255, 255, 0.1);
+  --customers-icon: #8e8f99;
 }
 
 body {
@@ -516,7 +517,7 @@ img {
   align-items: center;
 }
 .customers-icon {
-  fill: #8e8f99;
+  fill: var(--customers-icon);
 }
 
 .customers-item:is(:hover, :focus) {
